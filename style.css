@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.bgColor {
+  height: 100vh;
+  width: 100%;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-container {
+  background: #fff;
+  height: 80vh;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 1rem;
+}
+
+.quote-container > .btn {
+  height: 6.8rem;
+  width: 20.8rem;
+  background: rgb(29, 114, 129);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 0;
+  border-radius: 5px;
+}
+
+.quote-container > .btn > a {
+  background: black;
+  height: 6rem;
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+}
+
+.quote-container > .middle-section > .quote-icon > img {
+  height: 120px;
+  width: 120px;
+  margin: 0 6rem;
+}
+
+.quote-container > .middle-section > #quote-text {
+  font-size: 3rem;
+  margin: 2rem 6rem;
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.quote-container > .middle-section > #author-of-quote {
+  font-size: 1.8rem;
+  font-family: fantasy;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 6rem;
+  color: rgb(29, 114, 129);
+  font-weight: bold;
+}
